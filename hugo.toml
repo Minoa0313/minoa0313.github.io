@@ -12,6 +12,7 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 defaultTheme = "auto"
+mainSections = ["posts"]
 
 [params.homeInfoParams]
 Title = "欢迎来到炸鱼薯条的空间～"
