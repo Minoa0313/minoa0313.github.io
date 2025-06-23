@@ -1,6 +1,6 @@
 baseURL = "https://vayuuutn.com/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = '炸鱼薯条'
 theme = "PaperMod"
 
 [pagination]
@@ -14,8 +14,12 @@ ShowCodeCopyButtons = true
 defaultTheme = "auto"
 
 [params.homeInfoParams]
-Title = "欢迎来到我的博客"
+Title = "欢迎来到炸鱼薯条的空间～"
 Content = "这是用 Hugo + PaperMod 建立的个人网站。"
+
+
+[params.footer]
+customText="@2025炸鱼薯条"
 
 [menu]
 
