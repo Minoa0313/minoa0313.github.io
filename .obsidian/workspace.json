@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/【カービィの可愛さによる大量心泥棒事件】.md",
+                "file": "content/posts/第一弹ーー智取缩水热可可.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【カービィの可愛さによる大量心泥棒事件】"
+              "title": "第一弹ーー智取缩水热可可"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "917170fe79433f39",
@@ -171,6 +172,8 @@
   "active": "60590e8e59d24c33",
   "lastOpenFiles": [
     "content/posts/第二弾ーー貯金ゼロから始める宇宙生活.md",
+    "content/posts/第一弹ーー智取缩水热可可.md",
+    "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
     "content/posts/【カービィの可愛さによる大量心泥棒事件】.md",
     "public/posts/カービィの可愛さによる大量心泥棒事件/index.html",
     "public/posts/カービィの可愛さによる大量心泥棒事件",
@@ -187,7 +190,6 @@
     "public/categories/卡比小剧场/page/1",
     "content/posts/除夕夜——最近的一些思考.md",
     "content/posts/恭喜我拿到驾照.md",
-    "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
     "content/posts/纪念第一次自己理发.md",
     "content/posts/《当下的力量》读后感.md",
     "2023-06-09.md",
