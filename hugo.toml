@@ -15,8 +15,12 @@ defaultTheme = "auto"
 mainSections = ["posts"]
 
 [params.homeInfoParams]
-Title = "欢迎来到炸鱼薯条的空间～"
-Content = "这是用 Hugo + PaperMod 建立的个人网站。"
+Title = ""
+Content = """
+1. 乐观的人永远前行
+2. 我的努力会给她人和世界带来积极的影响
+3. 我的过往不会成为我人生的判词
+"""
 
 
 [params.footer]
