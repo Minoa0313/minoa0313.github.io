@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about.md",
+                "file": "content/about/_index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "_index"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "917170fe79433f39",
@@ -171,23 +170,23 @@
   },
   "active": "60590e8e59d24c33",
   "lastOpenFiles": [
+    "public/about/index.xml",
+    "public/about/page/1/index.html",
+    "public/about/page/1",
+    "public/about/page",
+    "content/tags/_index.md",
+    "content/categories/_index.md",
+    "content/archives/_index.md",
+    "content/about/_index.md",
+    "content/about",
     "public/about/index.html",
     "public/about",
-    "content/tags/_index.md",
-    "content/about.md",
     "layouts/partials/header.html",
     "themes/PaperMod/layouts/partials/header_副本.html",
     "layouts/partials",
     "layouts/未命名文件夹",
-    "assets/css/extra.css",
-    "extra.css",
-    "assets/css",
-    "assets/未命名文件夹",
     "content/posts/《当下的力量》读后感.md",
-    "content/archives/_index.md",
-    "content/categories/_index.md",
     "content/posts/除夕夜——最近的一些思考.md",
-    "public/categories/杂记随感/page/2/index.html",
     "content/posts/第二弾ーー貯金ゼロから始める宇宙生活.md",
     "content/posts/Kindle Scribe使用体验.md",
     "content/posts/draft.md",
