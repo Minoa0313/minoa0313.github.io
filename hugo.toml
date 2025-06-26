@@ -26,6 +26,9 @@ Content = """
 [params.footer]
 customText="@2025炸鱼薯条"
 
+[params.assets]
+customCSS = ["css/extra.css"]
+
 [menu]
 
   [[menu.main]]
@@ -49,5 +52,11 @@ customText="@2025炸鱼薯条"
   [[menu.main]]
   identifier = "categories"
   name = "分类"
-  url = "/categories/"
+  url = "/categories"
   weight = 4
+
+  [[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about"
+  weight = 5

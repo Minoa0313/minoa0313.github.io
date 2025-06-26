@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "我从《悉达多》中学到的——找到一条属于自己的路"
+              "title": "about"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "917170fe79433f39",
@@ -170,27 +171,34 @@
   },
   "active": "60590e8e59d24c33",
   "lastOpenFiles": [
-    "content/posts/突然意识到了自己的好学生心态.md",
-    "content/posts/第一弹ーー智取缩水热可可.md",
-    "content/posts/第二弾ーー貯金ゼロから始める宇宙生活.md",
-    "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
-    "content/posts/【カービィの可愛さによる大量心泥棒事件】.md",
-    "public/posts/カービィの可愛さによる大量心泥棒事件/index.html",
-    "public/posts/カービィの可愛さによる大量心泥棒事件",
-    "content/posts/draft.md",
-    "public/posts/draft/index.html",
-    "public/posts/draft",
-    "public/posts/未命名/index.html",
-    "public/posts/未命名",
-    "2025-06-26.md",
-    "public/posts/第二弾ーー貯金ゼロから始める宇宙生活/index.html",
-    "public/posts/第二弾ーー貯金ゼロから始める宇宙生活",
-    "public/categories/卡比小剧场/page/1/index.html",
-    "public/categories/卡比小剧场/page/1",
-    "content/posts/除夕夜——最近的一些思考.md",
-    "content/posts/恭喜我拿到驾照.md",
-    "content/posts/纪念第一次自己理发.md",
+    "public/about/index.html",
+    "public/about",
+    "content/tags/_index.md",
+    "content/about.md",
+    "layouts/partials/header.html",
+    "themes/PaperMod/layouts/partials/header_副本.html",
+    "layouts/partials",
+    "layouts/未命名文件夹",
+    "assets/css/extra.css",
+    "extra.css",
+    "assets/css",
+    "assets/未命名文件夹",
     "content/posts/《当下的力量》读后感.md",
+    "content/archives/_index.md",
+    "content/categories/_index.md",
+    "content/posts/除夕夜——最近的一些思考.md",
+    "public/categories/杂记随感/page/2/index.html",
+    "content/posts/第二弾ーー貯金ゼロから始める宇宙生活.md",
+    "content/posts/Kindle Scribe使用体验.md",
+    "content/posts/draft.md",
+    "content/posts/我有小汽车啦.md",
+    "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
+    "content/posts/突然意识到了自己的好学生心态.md",
+    "content/posts/纪念第一次自己理发.md",
+    "content/posts/恭喜我拿到驾照.md",
+    "content/posts/第一弹ーー智取缩水热可可.md",
+    "content/posts/【カービィの可愛さによる大量心泥棒事件】.md",
+    "2025-06-26.md",
     "2023-06-09.md",
     "2023-04-02.md"
   ]
