@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/第一弹ーー智取缩水热可可.md",
+                "file": "content/about/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一弹ーー智取缩水热可可"
+              "title": "_index"
             }
           }
         ]
@@ -170,6 +170,11 @@
   },
   "active": "60590e8e59d24c33",
   "lastOpenFiles": [
+    "content/tags/_index.md",
+    "content/posts/draft.md",
+    "content/posts/Kindle Scribe使用体验.md",
+    "content/posts/读《世界一流エンジニアの思考法》.md",
+    "content/posts/第一弹ーー智取缩水热可可.md",
     "content/posts/读「投資依存症」.md",
     "public/posts/读投資依存症/index.html",
     "public/posts/读投資依存症",
@@ -184,12 +189,9 @@
     "public/tags/旅行/index.xml",
     "public/tags/旅行/index.html",
     "public/tags/旅行",
-    "content/posts/draft.md",
-    "content/posts/Kindle Scribe使用体验.md",
     "content/posts/我有小汽车啦.md",
     "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
     "content/about/_index.md",
-    "content/tags/_index.md",
     "content/categories/_index.md",
     "content/archives/_index.md",
     "content/posts/除夕夜——最近的一些思考.md",
@@ -197,7 +199,6 @@
     "content/posts/突然意识到了自己的好学生心态.md",
     "content/posts/纪念第一次自己理发.md",
     "content/posts/恭喜我拿到驾照.md",
-    "content/posts/第一弹ーー智取缩水热可可.md",
     "content/posts/【カービィの可愛さによる大量心泥棒事件】.md",
     "2025-06-26.md",
     "2023-06-09.md",
