@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/新年旅行.md",
-                "mode": "preview",
-                "source": true
+                "file": "content/posts/第一弹ーー智取缩水热可可.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "新年旅行"
+              "title": "第一弹ーー智取缩水热可可"
             }
           }
         ]
@@ -170,27 +170,28 @@
   },
   "active": "60590e8e59d24c33",
   "lastOpenFiles": [
+    "content/posts/读「投資依存症」.md",
+    "public/posts/读投資依存症/index.html",
+    "public/posts/读投資依存症",
+    "content/posts/《当下的力量》读后感.md",
+    "content/posts/关于人生选择的一个想法.md",
+    "public/posts/关于人生选择的一个想法/index.html",
+    "public/posts/关于人生选择的一个想法",
+    "content/posts/新年旅行.md",
+    "public/tags/旅行/page/1/index.html",
+    "public/tags/旅行/page/1",
+    "public/tags/旅行/page",
+    "public/tags/旅行/index.xml",
+    "public/tags/旅行/index.html",
+    "public/tags/旅行",
     "content/posts/draft.md",
-    "content/posts/新年旅行.md",
-    "content/posts/新年旅行.md",
     "content/posts/Kindle Scribe使用体验.md",
     "content/posts/我有小汽车啦.md",
     "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
-    "content/posts/《当下的力量》读后感.md",
     "content/about/_index.md",
-    "public/about/index.xml",
-    "public/about/page/1/index.html",
-    "public/about/page/1",
-    "public/about/page",
     "content/tags/_index.md",
     "content/categories/_index.md",
     "content/archives/_index.md",
-    "content/about",
-    "public/about/index.html",
-    "public/about",
-    "layouts/partials/header.html",
-    "themes/PaperMod/layouts/partials/header_副本.html",
-    "layouts/partials",
     "content/posts/除夕夜——最近的一些思考.md",
     "content/posts/第二弾ーー貯金ゼロから始める宇宙生活.md",
     "content/posts/突然意识到了自己的好学生心态.md",
