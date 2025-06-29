@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/_index.md",
-                "mode": "source",
+                "file": "content/posts/新年旅行.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "新年旅行"
             }
           }
         ]
@@ -170,6 +170,14 @@
   },
   "active": "60590e8e59d24c33",
   "lastOpenFiles": [
+    "content/posts/draft.md",
+    "content/posts/新年旅行.md",
+    "content/posts/新年旅行.md",
+    "content/posts/Kindle Scribe使用体验.md",
+    "content/posts/我有小汽车啦.md",
+    "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
+    "content/posts/《当下的力量》读后感.md",
+    "content/about/_index.md",
     "public/about/index.xml",
     "public/about/page/1/index.html",
     "public/about/page/1",
@@ -177,21 +185,14 @@
     "content/tags/_index.md",
     "content/categories/_index.md",
     "content/archives/_index.md",
-    "content/about/_index.md",
     "content/about",
     "public/about/index.html",
     "public/about",
     "layouts/partials/header.html",
     "themes/PaperMod/layouts/partials/header_副本.html",
     "layouts/partials",
-    "layouts/未命名文件夹",
-    "content/posts/《当下的力量》读后感.md",
     "content/posts/除夕夜——最近的一些思考.md",
     "content/posts/第二弾ーー貯金ゼロから始める宇宙生活.md",
-    "content/posts/Kindle Scribe使用体验.md",
-    "content/posts/draft.md",
-    "content/posts/我有小汽车啦.md",
-    "content/posts/我从《悉达多》中学到的——找到一条属于自己的路.md",
     "content/posts/突然意识到了自己的好学生心态.md",
     "content/posts/纪念第一次自己理发.md",
     "content/posts/恭喜我拿到驾照.md",
