@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>炸鱼薯条</title><link>https://vayuuutn.com/</link><description>Recent content on 炸鱼薯条</description><generator>Hugo -- 0.150.0</generator><language>zh-cn</language><lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://vayuuutn.com/index.xml" rel="self" type="application/rss+xml"/><item><title>第三弾ーーカービィと川の神</title><link>https://vayuuutn.com/posts/%E7%AC%AC%E4%B8%89%E5%BC%BE%E3%83%BC%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E3%81%A8%E5%B7%9D%E3%81%AE%E7%A5%9E/</link><pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate><guid>https://vayuuutn.com/posts/%E7%AC%AC%E4%B8%89%E5%BC%BE%E3%83%BC%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E3%81%A8%E5%B7%9D%E3%81%AE%E7%A5%9E/</guid><description>&lt;p&gt;ある日、カービィは川辺を歩きながらリンゴをかじっていました。&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>炸鱼薯条</title><link>https://vayuuutn.com/</link><description>Recent content on 炸鱼薯条</description><generator>Hugo -- 0.150.0</generator><language>zh-cn</language><lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://vayuuutn.com/index.xml" rel="self" type="application/rss+xml"/><item><title>tree-sitter 升级到0.25之后so文件的编译方法</title><link>https://vayuuutn.com/posts/tree-sitter-%E5%8D%87%E7%BA%A7%E5%88%B00.25%E4%B9%8B%E5%90%8Eso%E6%96%87%E4%BB%B6%E7%9A%84%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://vayuuutn.com/posts/tree-sitter-%E5%8D%87%E7%BA%A7%E5%88%B00.25%E4%B9%8B%E5%90%8Eso%E6%96%87%E4%BB%B6%E7%9A%84%E7%BC%96%E8%AF%91%E6%96%B9%E6%B3%95/</guid><description>&lt;h1 id="旧版本写法"&gt;旧版本写法&lt;/h1&gt;
+&lt;p&gt;之前用的是0.24版本的&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;GRAMMAR_DIR &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;tree-sitter-c&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;LIB_PATH &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;build/my-languages.so&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 言語ライブラリのビルド（一回のみ実施）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;if&lt;/span&gt; &lt;span style="color:#f92672"&gt;not&lt;/span&gt; os&lt;span style="color:#f92672"&gt;.&lt;/span&gt;path&lt;span style="color:#f92672"&gt;.&lt;/span&gt;exists(LIB_PATH):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;Building...&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; os&lt;span style="color:#f92672"&gt;.&lt;/span&gt;makedirs(&lt;span style="color:#e6db74"&gt;&amp;#39;build&amp;#39;&lt;/span&gt;, exist_ok&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; Language&lt;span style="color:#f92672"&gt;.&lt;/span&gt;build_library(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; LIB_PATH,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; [os&lt;span style="color:#f92672"&gt;.&lt;/span&gt;path&lt;span style="color:#f92672"&gt;.&lt;/span&gt;abspath(GRAMMAR_DIR)]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; )
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;C_LANGUAGE &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Language(LIB_PATH, &lt;span style="color:#e6db74"&gt;&amp;#39;c&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;parser &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Parser()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;parser&lt;span style="color:#f92672"&gt;.&lt;/span&gt;set_language(C_LANGUAGE)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id="新版本写法"&gt;新版本写法&lt;/h1&gt;
+&lt;p&gt;升级到0.25之后这样的写法就会出错，更新了写法，好像也应该更新.so文件&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;LIB_PATH &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;build/tree-sitter-c.so&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;lib &lt;span style="color:#f92672"&gt;=&lt;/span&gt; ctypes&lt;span style="color:#f92672"&gt;.&lt;/span&gt;cdll&lt;span style="color:#f92672"&gt;.&lt;/span&gt;LoadLibrary(LIB_PATH)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;lib&lt;span style="color:#f92672"&gt;.&lt;/span&gt;tree_sitter_c&lt;span style="color:#f92672"&gt;.&lt;/span&gt;restype &lt;span style="color:#f92672"&gt;=&lt;/span&gt; ctypes&lt;span style="color:#f92672"&gt;.&lt;/span&gt;c_void_p
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;c_ptr &lt;span style="color:#f92672"&gt;=&lt;/span&gt; lib&lt;span style="color:#f92672"&gt;.&lt;/span&gt;tree_sitter_c()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ptr_value &lt;span style="color:#f92672"&gt;=&lt;/span&gt; ctypes&lt;span style="color:#f92672"&gt;.&lt;/span&gt;cast(c_ptr, ctypes&lt;span style="color:#f92672"&gt;.&lt;/span&gt;c_void_p)&lt;span style="color:#f92672"&gt;.&lt;/span&gt;value
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;C_LANGUAGE &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Language(ptr_value)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;parser &lt;span style="color:#f92672"&gt;=&lt;/span&gt; Parser(C_LANGUAGE)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id="新版本so文件的编译方法"&gt;新版本so文件的编译方法&lt;/h1&gt;
+&lt;p&gt;so文件的编译方法如下，需要下载&lt;a href="https://www.msys2.org/#installation"&gt;MSYS&lt;/a&gt;&lt;br&gt;
+打开&lt;code&gt;MSYS2 MINGW64&lt;/code&gt; 的软件&lt;br&gt;
+需要确认已安装 Node.js, npm, gcc&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;node -v
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;npm -v
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;gcc -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;进入到tree-sitter-c文件夹目录&lt;br&gt;
+依次执行以下命令&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;生成解析器源文件，这一步会在 src/ 目录下生成或更新 parser.c（以及可能存在的 scanner.c）&lt;br&gt;
+&lt;code&gt;$ tree-sitter generate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;编译生成新的 .so 文件&lt;br&gt;
+&lt;code&gt;$ gcc -shared -o ../build/tree-sitter-c.so -fPIC src/parser.c&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;执行完成后会在 build 文件夹下面生成一个名为 &lt;code&gt;tree-sitter-c.so&lt;/code&gt; 的文件。 &lt;br&gt;
+这样就可以在代码中使用这个.so 文件了。&lt;/p&gt;</description></item><item><title>第三弾ーーカービィと川の神</title><link>https://vayuuutn.com/posts/%E7%AC%AC%E4%B8%89%E5%BC%BE%E3%83%BC%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E3%81%A8%E5%B7%9D%E3%81%AE%E7%A5%9E/</link><pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate><guid>https://vayuuutn.com/posts/%E7%AC%AC%E4%B8%89%E5%BC%BE%E3%83%BC%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%93%E3%82%A3%E3%81%A8%E5%B7%9D%E3%81%AE%E7%A5%9E/</guid><description>&lt;p&gt;ある日、カービィは川辺を歩きながらリンゴをかじっていました。&lt;br&gt;
 「シャリ…poyo～🍎」&lt;br&gt;
 ところが、つるりと手をすべらせて、ぽちゃん！ リンゴが川に落ちてしまいました。&lt;/p&gt;
 &lt;p&gt;すると、水面から川の神さまが現れて言いました。&lt;br&gt;
