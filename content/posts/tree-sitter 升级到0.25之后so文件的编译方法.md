@@ -2,7 +2,8 @@
 title: tree-sitter 升级到0.25之后so文件的编译方法
 date: 2025-09-17
 draft: false
-tags: python
+tags: 
+  - python
 categories:
 ---
 
